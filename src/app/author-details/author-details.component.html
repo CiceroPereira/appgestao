@@ -1,0 +1,22 @@
+<div class="card" style="margin-top: 60px; margin-left: 100px; margin-right: 100px">
+	<div class="card-header">
+		<table class="table table-striped">
+		  <thead>
+		    <tr>
+		      <th scope="col">#</th>
+		      <th scope="col">Nome</th>
+		      <th scope="col">Número de citações</th>
+		      <th scope="col">Id Scholar</th>
+		    </tr>
+		  </thead>
+		  <tbody>
+		    <tr *ngFor="let author of authores; let i = index">
+		      <td> {{i}}</td>
+		      <td>{{author.name}}</td>
+		      <td>{{author.citedby}}</td>
+		      <td>{{author.scholar_id}}</td>
+		    </tr>
+		  </tbody>
+		</table>
+	</div>
+</div>
