@@ -6,7 +6,7 @@ import { Author } from '../models/author';
 import { tap } from 'rxjs/operators';
 
 
-const url = 'http://fe2e1db9aadb.ngrok.io/publisher'
+const url = 'https://gestao-flask.herokuapp.com/publisher'
 
 @Injectable({
   providedIn: 'root'
